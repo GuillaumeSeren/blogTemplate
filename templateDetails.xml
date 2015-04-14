@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+    <name>blogTemplate</name>
+    <creationDate>2015-04-14</creationDate>
+    <author>Guillaume Seren</author>
+    <authorEmail>guillaumeseren@gmail.com</authorEmail>
+    <authorUrl>http://www.guillaumeseren.com/</authorUrl>
+    <copyright>Guillaume Seren 2014</copyright>
+    <license>GNU/GPL</license>
+    <version>3.0</version>
+    <description>My blog template</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+    </files>
+    <positions>
+        <position>breadcrumb</position>
+        <position>left</position>
+        <position>right</position>
+        <position>top</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>footer</position>
+    </positions>
+</extension>
