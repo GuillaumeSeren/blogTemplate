@@ -37,36 +37,31 @@ defined('_JEXEC') or die('Restricted access');?>
                 <jdoc:include type="modules" name="position-15" />
             </div>
         </div>
-
         <!-- BREADCRUMB {{{1 -->
         <div id="breadcrumb">
             <jdoc:include type="modules" name="position-2" />
         </div>
-
         <!-- MODULES {{{1 -->
         <div id="modules">
-            <jdoc:include type="modules" name="position-7" headerLevel="3" />
-            <jdoc:include type="modules" name="position-4" headerLevel="3" />
-            <jdoc:include type="modules" name="position-5" headerLevel="2" />
+            <jdoc:include type="modules" name="position-7" />
+            <jdoc:include type="modules" name="position-4" />
+            <jdoc:include type="modules" name="position-5" />
         </div>
-
         <!-- MAIN {{{1 -->
         <div id="main">
             <jdoc:include type="message" />
             <jdoc:include type="component" />
-            <jdoc:include type="modules" name="position-6" headerLevel="3"/>
-            <jdoc:include type="modules" name="position-8" headerLevel="3"  />
-            <jdoc:include type="modules" name="position-3" headerLevel="3"  />
+            <jdoc:include type="modules" name="position-6" />
+            <jdoc:include type="modules" name="position-8" />
+            <jdoc:include type="modules" name="position-3" />
         </div>
-
         <!-- FOOTER {{{1 -->
         <div id="footer">
-            <jdoc:include type="modules" name="position-9"  headerlevel="3" />
-            <jdoc:include type="modules" name="position-10" headerlevel="3" />
-            <jdoc:include type="modules" name="position-11" headerlevel="3" />
+            <jdoc:include type="modules" name="position-9"  />
+            <jdoc:include type="modules" name="position-10" />
+            <jdoc:include type="modules" name="position-11" />
             <jdoc:include type="modules" name="position-14" />
         </div>
-
         <!-- DEBUG {{{1 -->
         <div id="debug">
             <jdoc:include type="modules" name="debug" />
