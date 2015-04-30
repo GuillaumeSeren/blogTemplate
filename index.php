@@ -5,7 +5,11 @@
  */
 
 // No direct access.
-defined('_JEXEC') or die('Restricted access');?>
+defined('_JEXEC') or die('Restricted access');
+
+/* The following line gets the application object for things like displaying the site name */
+$app = JFactory::getApplication();
+?>
 <!DOCTYPE html>
 <html
     xmlns="http://www.w3.org/1999/xhtml"
@@ -30,12 +34,12 @@ defined('_JEXEC') or die('Restricted access');?>
     <body>
         <!-- HEADER {{{1 -->
         <div id="header">
-            <h1 id="logo">Here is the HEADER</h1>
+            <h1 id="title"><?php echo htmlspecialchars($app->getCfg('sitename')); ?></h1>
             <jdoc:include type="modules" name="position-0" />
+        </div>
+        <!-- MENU {{{1 -->
+        <div id="menu">
             <jdoc:include type="modules" name="position-1" />
-            <div id="header-image">
-                <jdoc:include type="modules" name="position-15" />
-            </div>
         </div>
         <!-- BREADCRUMB {{{1 -->
         <div id="breadcrumb">
@@ -61,10 +65,7 @@ defined('_JEXEC') or die('Restricted access');?>
             <jdoc:include type="modules" name="position-10" />
             <jdoc:include type="modules" name="position-11" />
             <jdoc:include type="modules" name="position-14" />
-        </div>
-        <!-- DEBUG {{{1 -->
-        <div id="debug">
-            <jdoc:include type="modules" name="debug" />
+            <span class="footer"><?php echo date('Y'); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></span>
         </div>
     </body>
 </html>
