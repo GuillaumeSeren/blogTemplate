@@ -31,11 +31,12 @@ $app = JFactory::getApplication();
         <!-- HEADER {{{1 -->
         <div class="header">
             <h1 class="title"><?php echo htmlspecialchars($app->getCfg('sitename')); ?></h1>
-            <jdoc:include type="modules" name="position-0" />
-        </div>
-        <!-- MENU {{{1 -->
-        <div class="menu">
-            <jdoc:include type="modules" name="position-1" />
+            <div class="position-0">
+                <jdoc:include type="modules" name="position-0" />
+            </div>
+            <div class="position-1">
+                <jdoc:include type="modules" name="position-1" />
+            </div>
         </div>
         <!-- BREADCRUMB {{{1 -->
         <div class="breadcrumb">
