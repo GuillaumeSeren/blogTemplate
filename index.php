@@ -33,26 +33,26 @@ $app = JFactory::getApplication();
     </head>
     <body>
         <!-- HEADER {{{1 -->
-        <div id="header">
-            <h1 id="title"><?php echo htmlspecialchars($app->getCfg('sitename')); ?></h1>
+        <div class="header">
+            <h1 class="title"><?php echo htmlspecialchars($app->getCfg('sitename')); ?></h1>
             <jdoc:include type="modules" name="position-0" />
         </div>
         <!-- MENU {{{1 -->
-        <div id="menu">
+        <div class="menu">
             <jdoc:include type="modules" name="position-1" />
         </div>
         <!-- BREADCRUMB {{{1 -->
-        <div id="breadcrumb">
+        <div class="breadcrumb">
             <jdoc:include type="modules" name="position-2" />
         </div>
         <!-- MODULES {{{1 -->
-        <div id="modules">
+        <div class="modules">
             <jdoc:include type="modules" name="position-7" />
             <jdoc:include type="modules" name="position-4" />
             <jdoc:include type="modules" name="position-5" />
         </div>
         <!-- MAIN {{{1 -->
-        <div id="main">
+        <div class="main">
             <jdoc:include type="message" />
             <jdoc:include type="component" />
             <jdoc:include type="modules" name="position-6" />
@@ -60,7 +60,7 @@ $app = JFactory::getApplication();
             <jdoc:include type="modules" name="position-3" />
         </div>
         <!-- FOOTER {{{1 -->
-        <div id="footer">
+        <div class="footer">
             <jdoc:include type="modules" name="position-9"  />
             <jdoc:include type="modules" name="position-10" />
             <jdoc:include type="modules" name="position-11" />

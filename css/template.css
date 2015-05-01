@@ -12,16 +12,16 @@ body {
 }
 
 /* HEADER */
-#header > * {
+.header > * {
   display: inline;
 }
 
-h1#title {
+h1.title {
   margin: 0 0 0 0;
 }
 
 /* MENU */
-ul#menu {
+ul.menu {
     margin: 0 0 0 0;
 }
 
@@ -34,7 +34,7 @@ ul.nav.menu {
 display: inline;
 }
 
-#header {
+.header {
     top: 0;
     background-color: #F5F5F5;
     width: 100%;
@@ -48,7 +48,7 @@ display: inline;
 /*     } */
 
 
-#header #title {
+.header .title {
     /* color: blue; */
 }
 
@@ -57,17 +57,17 @@ display: inline;
   float: right;
 }
 
-#menu {
+.menu {
     /* background-color: green; */
 }
 
-#menu li {
+.menu li {
     display: inline;
     list-style: none; /* pour enlever les puces sur IE7 */
     /* margin: 10px; */
 }
 
-#menu li a {
+.menu li a {
     display: inline-block;
     /* width: 100px; */
     /* padding: 5px 10px; */
@@ -83,20 +83,20 @@ display: inline;
     color: #333;
 }
 
-#breadcrumb {
+.breadcrumb {
     /* background-color: blue; */
     /* background-color: #F5F5F5; */
     font-style: italic;
     font-size: 13px;
 }
 
-#breadcrumb li {
+.breadcrumb li {
     display: inline;
     list-style: none; /* pour enlever les puces sur IE7 */
     margin: 10px;
 }
 
-#breadcrumb li a {
+.breadcrumb li a {
     display: inline-block;
     width: 100px;
     padding: 5px 10px;
@@ -106,7 +106,7 @@ display: inline;
     /* background: #999; */
 }
 
-#menu .search {
+.menu .search {
     display: inline;
     float: right;
     /* top: 1px; */
@@ -117,7 +117,7 @@ display: inline;
 }
 
 
-#modules {
+.modules {
     /* background-color: brown; */
 }
 
@@ -127,7 +127,7 @@ span.footer {
     text-align: center;
 }
 
-#main {
+.main {
     /* background-color: grey; */
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -148,6 +148,6 @@ h2.item-title {
   -webkit-margin-after: 0;
 }
 
-#footer {
+.footer {
     /* background-color: yellow; */
 }
