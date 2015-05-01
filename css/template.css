@@ -12,12 +12,13 @@ body {
 }
 
 /* HEADER */
-.header > * {
-  display: inline;
-}
+/* .header > h1, .title { */
+/*   display: inline; */
+/* } */
 
-h1.title {
-  margin: 0 0 0 0;
+.title {
+  /* margin: 0 0 0 0; */
+  display: inline;
 }
 
 /* MENU */
@@ -25,12 +26,12 @@ ul.menu {
     margin: 0 0 0 0;
 }
 
-ul.nav.menu {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+.nav, .menu {
+  /* margin: 0 0 0 0; */
+  /* padding: 0 0 0 0; */
   background-color: #F5F5F5;
-  float: left;
-  width: 100%;
+  /* float: left; */
+  /* width: 100%; */
 display: inline;
 }
 
@@ -48,18 +49,18 @@ display: inline;
 /*     } */
 
 
-.header .title {
-    /* color: blue; */
-}
+/* .header .title { */
+/*     /1* color: blue; *1/ */
+/* } */
 
 /* SEARCH */
 .search {
   float: right;
 }
 
-.menu {
-    /* background-color: green; */
-}
+/* .menu { */
+/*     /1* background-color: green; *1/ */
+/* } */
 
 .menu li {
     display: inline;
@@ -93,13 +94,13 @@ display: inline;
 .breadcrumb li {
     display: inline;
     list-style: none; /* pour enlever les puces sur IE7 */
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .breadcrumb li a {
     display: inline-block;
     width: 100px;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     text-decoration: none;
     /* color: #fff; */
     font-weight: bold;
@@ -108,7 +109,7 @@ display: inline;
 
 .menu .search {
     display: inline;
-    float: right;
+    /* float: right; */
     /* top: 1px; */
     /* z-index: 10; */
     /* position: absolute; */
@@ -116,13 +117,7 @@ display: inline;
     /* top: 0; */
 }
 
-
-.modules {
-    /* background-color: brown; */
-}
-
-
-span.footer {
+.footer {
     display: block;
     text-align: center;
 }
@@ -132,22 +127,18 @@ span.footer {
     /* margin-left: auto; */
     /* margin-right: auto; */
     /* width: 95%; */
-    padding: 0 10px 0 10px;
+    /* padding: 0 10px 0 10px; */
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0 0;
     border-width: 1px 1px 1px 1px;
     border-style: solid solid;
     border-color: #D8D8D8 #D8D8D8;
 }
 
-h2.item-title {
+.item-title {
   background-color: #F5F5F5;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-}
-
-.footer {
-    /* background-color: yellow; */
 }
