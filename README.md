@@ -15,6 +15,9 @@ but you should easily convert it for other platform.
 Each dependency should be treated as a git submodule in the "bundle/",
 that way is easier to backport feedback of the used project.
 
+### Used submodule
+- `Normalize.css`: github.com/necolas/normalize.css
+
 ## Package
 To package the code as Joomla! Extension just run:
 
