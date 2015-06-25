@@ -17,6 +17,7 @@ body {
 /* MENU */
 ul.menu {
     margin: 0 0 0 0;
+    padding: 0 0 0 5px;
 }
 
 .nav, .menu {
@@ -40,6 +41,7 @@ ul.menu {
 /* SEARCH */
 .search {
   float: right;
+  margin: 15px;
 }
 
 .menu li {
@@ -123,3 +125,4 @@ li.active > a {
     font-weight: bold;
     color: #333;
 }
+
