@@ -130,3 +130,10 @@ li.active > a {
     color: #333;
 }
 
+.content-category {
+    padding: 0 5px 0 5px;
+}
+
+.category {
+    width: 100%;
+}
