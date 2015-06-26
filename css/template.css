@@ -137,3 +137,7 @@ li.active > a {
 .category {
     width: 100%;
 }
+
+.pull-right {
+    float: right;
+}
