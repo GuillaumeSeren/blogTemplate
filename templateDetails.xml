@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="2.5" type="template">
+<extension version="2.5" type="template" method="upgrade">
     <name>blogTemplate</name>
+    <!-- The following elements are optional and free of formatting constraints -->
     <creationDate>2015-04-14</creationDate>
     <author>Guillaume Seren</author>
     <authorEmail>guillaumeseren@gmail.com</authorEmail>
     <authorUrl>http://www.guillaumeseren.com/</authorUrl>
     <copyright>Guillaume Seren 2014</copyright>
     <license>GNU/GPL</license>
-    <version>3.0</version>
+    <!--  The version string is recorded in the components table -->
+    <version>0.1</version>
+    <!--  The date for the actual version release -->
+    <releaseDate>2015-04-14</releaseDate>
+    <!--  Type of release: Bug fix, Security Fix, Minor update, Major update -->
+    <releaseType>Major update</releaseType>
+    <downloadUrl>https://github.com/GuillaumeSeren/blogTemplate/releases</downloadUrl>
     <description>My blog template</description>
     <files>
         <filename>index.php</filename>
