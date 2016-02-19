@@ -131,6 +131,38 @@ li.active > a {
 }
 
 .content-category {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.content-category > form > table > thead {
+    background-color: #F5F5F5;
+}
+
+.content-category > form > table > thead > tr > th > .hasTooltip {
+  float: left;
+}
+
+
+.content-category > form > fieldset {
+    background-color: #F5F5F5;
+    margin: 0px;
+    border-color: #D8D8D8 #D8D8D8 -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 9px 10px 10px;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-category {
     padding: 0 5px 0 5px;
 }
 
