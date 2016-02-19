@@ -132,17 +132,20 @@ li.active > a {
 
 .content-category {
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    /* margin: 0px 0px 0px 0px; */
 }
 
 .content-category > form > table > thead {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
 }
 
 .content-category > form > table > thead > tr > th > .hasTooltip {
   float: left;
 }
 
+.content-category > form > table > tbody {
+    /* background-color: #F5F5F5; */
+}
 
 .content-category > form > fieldset {
     background-color: #F5F5F5;
@@ -162,9 +165,9 @@ li.active > a {
     color: #333;
 }
 
-.content-category {
-    padding: 0 5px 0 5px;
-}
+/* .content-category { */
+/*     padding: 0 5px 0 5px; */
+/* } */
 
 .category {
     width: 100%;
